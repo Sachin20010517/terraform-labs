@@ -1,0 +1,24 @@
+# Ignore Terraform lock files
+**/.terraform.lock.hcl
+**/.terraform.lock.hcl_bkp
+
+# Ignore Terraform state files and backup
+**/.terraform/*
+**/*.tfstate.backup
+**/.terraform.tfstate.backup/*
+
+# Ignore module files
+modules/key/*
+
+# Ignore macOS system files
+.DS_Store
+
+
+
+
+# Day-1/ec2-instance-creation/.terraform.lock.hcl
+# Day-1/ec2-instance-creation/.terraform.lock.hcl_bkp
+# Day-1/ec2-instance-creation/.terraform/*
+# Day-1/ec2-instance-creation/.terraform.tfstate.backup/*
+# modules/key/*
+# .DS_Store/*
