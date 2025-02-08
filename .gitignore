@@ -10,6 +10,9 @@
 # Ignore module files
 modules/key/*
 
+# Ignore terraform.tfstate files
+**/.terraform.tfstate/*
+
 # Ignore macOS system files
 .DS_Store
 
